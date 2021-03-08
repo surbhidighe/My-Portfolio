@@ -1,0 +1,46 @@
+
+
+.intro-header {
+  height: unset !important;
+}
+.intro-2 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #000000 0%,#2C3E50 100%);
+   
+}
+// .view {
+//   height: 100vh !important;
+// }
+.container{
+  margin-top:12%;
+}
+.image_about{
+  
+  animation-name: aboutme_img;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+h4{font-size:20px;}
+@keyframes aboutme_img {
+  0.1%{
+    top:1px;
+  }
+  0.2%{
+    top:2px;
+  }
+  
+  0%{
+    top:0px;
+  }
+}
+h6 {
+  line-height: 1.7;
+}
+@media (max-width: 740px) {
+  .full-height,
+  .full-height body,
+  .full-height header,
+  .full-height header .view {
+    height: 1040px;
+  }
+}
